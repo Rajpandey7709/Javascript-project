@@ -1,0 +1,42 @@
+body{
+   background-color: rgb(83, 66, 84);
+    border: 5px solid black;
+    margin: 3px;
+    padding: 40px;
+    color: rgb(49, 42, 45);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+     font-size: larger;
+    
+    background-image: url(https://wallpapers.com/images/hd/red-and-blue-calculators-yxm0myfzuym67431.jpg);
+    background-size: cover;
+    
+}
+    
+
+button{
+    background-color: rgb(93, 10, 30);
+    border-radius: 10px;
+    font-size: larger;
+    color: aliceblue;
+    
+}
+button:hover{
+    background-color: rgb(11, 56, 56);
+    transform:scale(1.26)
+}
+
+input{
+    border-radius: 10px;
+    font-size: larger;
+    color: solid rgb(233, 224, 224);
+    background-color: rgb(58, 160, 160);
+    
+}
+::placeholder{
+    background-color: rgb(48, 46, 46);
+    color: beige;
+    
+}
